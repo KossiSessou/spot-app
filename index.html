@@ -44,9 +44,8 @@
             color: var(--primary); text-decoration: none; display: flex; align-items: center; gap: 8px;
         }
         .logo-icon {
-            width: 36px; height: 36px; background: var(--primary); border-radius: 10px;
-            display: flex; align-items: center; justify-content: center;
-            font-size: 18px; font-weight: 800; color: white;
+            width: 36px; height: 36px; border-radius: 10px;
+            object-fit: contain;
         }
         .nav-links { display: flex; gap: 32px; list-style: none; }
         .nav-links a { color: var(--text-secondary); text-decoration: none; font-weight: 500; transition: color 0.3s; }
@@ -272,7 +271,7 @@
 <body>
     <nav>
         <div class="container">
-            <a href="#" class="logo"><div class="logo-icon"><img src="spotlogo.png" alt="App Store"></div> SPOT</a>
+            <a href="#" class="logo"><img src="spotlogo.png" alt="SPOT Logo" class="logo-icon"> SPOT</a>
             <ul class="nav-links">
                 <li><a href="#features">Features</a></li>
                 <li><a href="#how-it-works">How It Works</a></li>
@@ -544,7 +543,7 @@
     <footer>
         <div class="container">
             <div class="footer-content">
-                <div class="footer-brand"><a href="#" class="logo"><div class="logo-icon">S</div> SPOT</a><p>Connecting campus communities through events, signals, and shared experiences.</p></div>
+                <div class="footer-brand"><a href="#" class="logo"><img src="spotlogo.png" alt="SPOT Logo" class="logo-icon"> SPOT</a><p>Connecting campus communities through events, signals, and shared experiences.</p></div>
                 <div class="footer-column"><h4>Product</h4><ul><li><a href="#features">Features</a></li><li><a href="#how-it-works">How It Works</a></li><li><a href="#preview">Preview</a></li><li><a href="#download">Download</a></li></ul></div>
                 <div class="footer-column"><h4>Legal</h4><ul><li><a href="#legal">Terms of Service</a></li><li><a href="#legal">Privacy Policy</a></li><li><a href="#legal">Cookie Policy</a></li><li><a href="#legal">Disclaimer</a></li></ul></div>
                 <div class="footer-column"><h4>Support</h4><ul><li><a href="mailto:spot-support@example.com">Contact Us</a></li><li><a href="#legal">Help Center</a></li><li><a href="#legal">Report Issue</a></li></ul></div>
