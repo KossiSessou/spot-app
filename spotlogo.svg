@@ -1,0 +1,10 @@
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+          <rect width="80" height="80" rx="18" fill="#141414"></rect>
+          <!-- pin body: circle + teardrop -->
+          <circle cx="40" cy="34" r="18" fill="#D9482A"></circle>
+          <path d="M40,52 L33,44 Q22,44 22,34 A18,18 0 0,1 58,34 Q58,44 47,44Z" fill="#D9482A"></path>
+          <!-- inner O hole -->
+          <circle cx="40" cy="34" r="8" fill="#BBA8E0"></circle>
+          <!-- drop shadow dot -->
+          <ellipse cx="40" cy="65" rx="8" ry="3" fill="#D9482A" opacity="0.25"></ellipse>
+        </svg>
